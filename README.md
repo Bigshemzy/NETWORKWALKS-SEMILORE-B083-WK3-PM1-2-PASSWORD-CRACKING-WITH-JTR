@@ -41,6 +41,15 @@ With the password known, I used `qpdf` to remove the encryption and produce a re
 ```bash
 qpdf --password=<recovered_password> --decrypt target.pdf decrypted.pdf
 ```
+### 5. Pictures 
+<p align='center'>
+<img width="574" height="817" alt="Screenshot 2026-09-27 163652" src="https://github.com/user-attachments/assets/6678a3cd-de9b-42bc-9337-2e320d717193" /> 
+  
+<img width="570" height="805" alt="Screenshot 2026-09-27 163709" src="https://github.com/user-attachments/assets/54d9f839-486f-4441-94e9-692f7788ea64" />
+
+<img width="584" height="753" alt="Screenshot 2026-09-27 163949" src="https://github.com/user-attachments/assets/2129f73d-eef7-4a77-81ca-8edce5977485" />
+
+</p>
 
 ## Key Takeaways
 - PDF password protection is only as strong as the password itself — dictionary attacks succeed quickly against common or reused passwords.
